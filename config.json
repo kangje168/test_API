@@ -1,0 +1,25 @@
+{
+    "base_url": "https://api.example.com",
+    "endpoint": "/test",
+    "method": "GET", 
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer <YOUR_TOKEN_HERE>" 
+    },
+    "params": {
+        "param1": "value1",
+        "param2": "value2" 
+    },
+    "payload": {
+        "key1": "value1",
+        "key2": "value2"
+    },
+    "notes": {
+        "headers": {
+            "Authorization": "Non-mandatory"
+        },
+        "payload": {
+            "key2": "Optional"
+        }
+    }
+}
